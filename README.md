@@ -10,7 +10,6 @@
 </p>
 
 
-
 > [!WARNING]
 > kmgccc_player 为个人项目，可能存在 Bug、未完成特性或行为变动。  
 > 不建议在重要环境中作为唯一播放器使用，欢迎通过 Issue 或 Pull Request 反馈问题。
