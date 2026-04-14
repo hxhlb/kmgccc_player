@@ -6,7 +6,7 @@
 
 <p align="center">
   面向 <strong>macOS 26</strong> 的本地音乐播放器<br>
-  专注于清晰的界面设计、沉浸式播放体验以及对本地音乐与歌词的良好支持
+  原生开发、专注美学，致力于沉浸式且富有特色的播放体验
 </p>
 
 
@@ -18,18 +18,19 @@
 
 ## 特性
 - ### **Liquid Glass 风格**  
-  应用整体使用 Liquid Glass 设计语言，界面通透、克制，贴近原生系统体验，并在深色与浅色模式下保持一致的视觉表现。
+  应用整体使用 Liquid Glass 设计语言，贴近原生系统体验
   
   <img src="screenshots/main.png" width="520" alt="Main UI" /> <img src="screenshots/glass.png" width="520" alt="Mini Player" />
 
-- ### **磁带式播放界面 + 实时频谱可视化**  
+- ### **磁带式播放界面 + 实时频谱可视化 + CD 模拟旋转 **  
   加入独立的"正在播放"视图，采用磁带外观设计。  
   磁带轮会随音乐播放实时转动，并基于音频频谱算法将音乐能量映射到磁带与指示元素上，在现代界面中保留实体播放设备的仪式感。
   
   <img src="screenshots/tape.png" width="640" alt="Cassette Player" />
+ <img src="screenshots/CD.png" width="640" alt="CD Player" />
 
 - ### **全屏播放体验**  
-  全新的全屏播放界面，支持独立窗口管理、多种皮肤切换、频谱可视化与歌词视图的顺畅协作，带来更沉浸的聆听方式。
+  全新的全屏播放界面，多种皮肤切换、频谱可视化与歌词视图的顺畅协作，带来更沉浸的聆听方式。
 
   <img src="screenshots/fs1.png" width="360" alt="Fullscreen 1" /> <img src="screenshots/fs2.png" width="360" alt="Fullscreen 2" />
   
