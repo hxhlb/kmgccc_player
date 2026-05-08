@@ -69,6 +69,7 @@
    - **LDDC Server**：使用脚本打包，输出到 `Tools/lddc-server`
    - **ncmdump**：从 [taurusxin/ncmdump](https://github.com/taurusxin/ncmdump) 下载 Universal Binary，放入 `Tools/ncmdump/`
    - **sacad**：从 [desbma/sacad](https://github.com/desbma/sacad) 下载或通过 `cargo install sacad` 安装
+   - **QQMusic helper**：运行 `myPlayer2/Resources/Tools/qqmusic-helper/build-universal.sh` 生成并 ad-hoc sign bundled universal macOS binary。app 只调用 `Resources/Tools/qqmusic-helper/qqmusic-helper`，不依赖本机 Python/venv。
 4. 选择 `kmgccc_player` Scheme 并运行
 
 ## 注意事项
@@ -105,6 +106,10 @@
 - **sacad**  
   提供专辑封面搜索与下载能力。  
   https://github.com/desbma/sacad
+
+- **QQMusicApi**  
+  提供 QQ 音乐元数据与封面候选查询能力。  
+  https://github.com/L-1124/QQMusicApi
 
 - **WhatsNewKit**  
   提供应用更新说明展示组件。  
