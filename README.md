@@ -81,6 +81,20 @@
 在线使用：https://amll-ttml-tool.stevexmh.net/ 
 也欢迎给 AMLL DB 贡献歌词。
 
+## 匿名统计
+
+匿名统计为用户主动开启的 opt-in 功能。App 使用本地随机 UUID 作为匿名安装 ID，不从设备、账户、Apple ID、音乐库或文件元数据派生身份。
+
+会话结束时，App 上报 `app_session_summary` 汇总字段，包括会话时长、前台活跃时长、本地 / Apple Music / 外部播放模式时长，以及实际播放时长。为支持后台按日复盘，新版 summary 同时携带轻量 `timeline_segments`：
+
+- `foreground`: `active` / `inactive`
+- `mode`: `local` / `apple_music` / `external`
+- `playback`: `playing` / `not_playing`
+
+这些 segment 只在状态变化时记录，使用相对当前 session 起点的 `start_offset_seconds` / `end_offset_seconds`，不做高频心跳。正常退出时会闭合当前片段后随 summary 上传；异常退出恢复时，会用最近 checkpoint 中已知的片段尽量生成 recovery summary。每个 session 最多保留 300 段，触及上限后本 session 后续细粒度片段会降级丢弃，但原有 summary 时长仍继续累计。
+
+匿名统计不会采集歌曲名、专辑名、艺人名、歌词、播放列表名、本地文件路径、账号信息、设备序列号或页面轨迹。服务端只将 timeline segment 明细保留最近 180 天，长期趋势继续依赖 summary 与每日聚合。
+
 
 ## 致谢
 
