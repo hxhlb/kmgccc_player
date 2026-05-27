@@ -1,0 +1,23 @@
+{
+  "bkThemes": true,
+  "xcassetsSourceRoots": [
+    "PrivateArtSources/XCAssetsOriginals"
+  ],
+  "xcassets": [
+    { "name": "cov1", "mode": "universal" },
+    { "name": "cov2", "mode": "universal" },
+    { "name": "cov3", "mode": "universal" },
+    { "name": "cov4", "mode": "universal" },
+    { "name": "darkhole", "mode": "universal" },
+    { "name": "jntm", "mode": "universal" },
+    { "name": "kmglook", "mode": "universal" },
+    { "name": "lighthole", "mode": "universal" },
+    { "name": "seasons", "mode": "universal" },
+    { "name": "tape", "mode": "universal" },
+    { "name": "tapedark", "mode": "universal" },
+    { "name": "tapegray", "mode": "universal" },
+    { "name": "tapemask", "mode": "universal" },
+    { "name": "tapeoutline", "mode": "universal" },
+    { "name": "tapepaper", "mode": "universal" }
+  ]
+}
