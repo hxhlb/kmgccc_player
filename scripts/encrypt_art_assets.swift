@@ -225,7 +225,7 @@ private func supportedImageFiles(in input: URL) throws -> [URL] {
     }.sorted { $0.path < $1.path }
 }
 
-private let supportedImageExtensions = Set(["png", "jpg", "jpeg", "webp"])
+private let supportedImageExtensions = Set(["png", "jpg", "jpeg", "webp", "heic"])
 
 private func relativePath(from file: URL, root: URL) -> String {
     let rootPath = root.standardizedFileURL.path

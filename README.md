@@ -67,10 +67,16 @@
 2. 使用 Xcode 打开 `kmgccc_player.xcodeproj`  
 3. 打包外部工具（如需完整功能）：
    - **LDDC Server**：使用脚本打包，输出到 `Tools/lddc-server`
-   - **ncmdump**：从 [taurusxin/ncmdump](https://github.com/taurusxin/ncmdump) 下载 Universal Binary，放入 `Tools/ncmdump/`
+   - **ncmdump**：从 [taurusxin/ncmdump](https://github.com/taurusxin/ncmdump) 下载 arm64-compatible macOS binary，放入 `Tools/ncmdump/`
    - **sacad**：从 [desbma/sacad](https://github.com/desbma/sacad) 下载或通过 `cargo install sacad` 安装
-   - **QQMusic helper**：运行 `myPlayer2/Resources/Tools/qqmusic-helper/build-universal.sh` 生成并 ad-hoc sign bundled universal macOS binary。app 只调用 `Resources/Tools/qqmusic-helper/qqmusic-helper`，不依赖本机 Python/venv。
+   - **QQMusic helper**：运行 `myPlayer2/Resources/Tools/qqmusic-helper/build-universal.sh` 生成并 ad-hoc sign bundled macOS binary。app 只调用 `Resources/Tools/qqmusic-helper/qqmusic-helper`，不依赖本机 Python/venv。
 4. 选择 `kmgccc_player` Scheme 并运行
+
+## Third-party runtimes
+
+本项目内置少量第三方运行时组件，用于元数据、封面、歌词和 AMLL 渲染等功能。Release 构建默认面向 Apple Silicon arm64。
+
+第三方工具的构建、更新、打包规则和体积审计流程见 `docs/third-party-runtime-integration.md`。修改 `Resources/Tools`、`AMLL`、`BKArt.bundle` 前必须先阅读该文档。
 
 ## 注意事项
 
