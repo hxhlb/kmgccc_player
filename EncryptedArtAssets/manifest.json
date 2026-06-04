@@ -3,6 +3,66 @@
   "entries" : [
     {
       "appearance" : "universal",
+      "encryptedPath" : "BKThemes\/ArtworkFrame\/artworkframe1.kmgasset",
+      "formatVersion" : 1,
+      "generatedAt" : "2026-06-01T11:10:20Z",
+      "height" : 1458,
+      "logicalName" : "BKThemes\/ArtworkFrame\/artworkframe1",
+      "originalExtension" : "png",
+      "originalPath" : "ArtworkFrame\/artworkframe1.png",
+      "scale" : "universal",
+      "sha256CipherFile" : "007e1205ebf9eb7da7cf8edbdc99c1059485ee52122b4a8cc37815449466c755",
+      "sha256Plaintext" : "503fa14b79b0166925b4fcecbed2c781096e01b1a429215c9d25ebb08cdd4774",
+      "sourceKind" : "bkThemes",
+      "width" : 1458
+    },
+    {
+      "appearance" : "universal",
+      "encryptedPath" : "BKThemes\/ArtworkFrame\/artworkframe2.kmgasset",
+      "formatVersion" : 1,
+      "generatedAt" : "2026-06-01T11:10:20Z",
+      "height" : 1458,
+      "logicalName" : "BKThemes\/ArtworkFrame\/artworkframe2",
+      "originalExtension" : "png",
+      "originalPath" : "ArtworkFrame\/artworkframe2.png",
+      "scale" : "universal",
+      "sha256CipherFile" : "71f6e289510912acd818bef64987e30bab6a70b5e023a4c6dbb360cb6b233f03",
+      "sha256Plaintext" : "6a30697478a51810a8646fd134090559bfba6467a67624c19f9b6d047843631d",
+      "sourceKind" : "bkThemes",
+      "width" : 1458
+    },
+    {
+      "appearance" : "universal",
+      "encryptedPath" : "BKThemes\/ArtworkFrame\/artworkframe3.kmgasset",
+      "formatVersion" : 1,
+      "generatedAt" : "2026-06-01T11:10:20Z",
+      "height" : 1347,
+      "logicalName" : "BKThemes\/ArtworkFrame\/artworkframe3",
+      "originalExtension" : "png",
+      "originalPath" : "ArtworkFrame\/artworkframe3.png",
+      "scale" : "universal",
+      "sha256CipherFile" : "9da90df267b978dcadff8de2869f6b0592ef1aba33cfbe6b4184a49258669a8f",
+      "sha256Plaintext" : "bbec9663d242bcb09a2c05e9597f49dd2f1ef8e92c1e57ea2d5790ec427dfa94",
+      "sourceKind" : "bkThemes",
+      "width" : 1347
+    },
+    {
+      "appearance" : "universal",
+      "encryptedPath" : "BKThemes\/ArtworkFrame\/artworkframe4.kmgasset",
+      "formatVersion" : 1,
+      "generatedAt" : "2026-06-01T11:10:20Z",
+      "height" : 1347,
+      "logicalName" : "BKThemes\/ArtworkFrame\/artworkframe4",
+      "originalExtension" : "png",
+      "originalPath" : "ArtworkFrame\/artworkframe4.png",
+      "scale" : "universal",
+      "sha256CipherFile" : "8c1505df36d1a0cdfff86697070d535a69162d0aa838bf465aed1406e499312f",
+      "sha256Plaintext" : "316227fac3320d9858abf11bb81a32003fb950902c86fcd7b237e82cade7dd79",
+      "sourceKind" : "bkThemes",
+      "width" : 1347
+    },
+    {
+      "appearance" : "universal",
       "encryptedPath" : "BKThemes\/Backgrounds\/bk1.kmgasset",
       "formatVersion" : 1,
       "generatedAt" : "2026-05-27T00:34:33Z",
@@ -708,5 +768,5 @@
     }
   ],
   "formatVersion" : 1,
-  "generatedAt" : "2026-05-27T00:45:44Z"
+  "generatedAt" : "2026-06-01T11:10:20Z"
 }
