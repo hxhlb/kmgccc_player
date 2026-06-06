@@ -35,7 +35,7 @@
    - **QQMusic helper**：运行 `myPlayer2/Resources/Tools/qqmusic-helper/build-universal.sh` 生成并 ad-hoc sign bundled macOS binary。app 只调用 `Resources/Tools/qqmusic-helper/qqmusic-helper`，不依赖本机 Python/venv。
 4. 选择 `kmgccc_player` Scheme 并运行
 
-## Third-party runtimes
+## 第三方运行时
 
 本项目内置少量第三方运行时组件，用于元数据、封面、歌词和 AMLL 渲染等功能。Release 构建默认面向 Apple Silicon arm64。
 第三方工具需要先构建出二进制，仓库内附有打包构建脚本。
